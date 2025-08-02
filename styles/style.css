@@ -1,0 +1,66 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    padding-top: 5px;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    background-color:#07657f;
+}
+header nav {
+    background-color: #07657f;
+    display: flex;
+    padding: 10px;;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 50px;
+}
+
+.logo {
+    height: 80px;
+    }
+
+.header-nav > button {
+    height: 40px;
+    width: 100px;
+    border-radius: 50px;
+    background-color:#F48452;
+    font-family:"Roboto", sans-serif; 
+    color: #07657f;
+    font-weight: 500;
+    border: none;
+}
+.hero-image{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    width: 100vw;
+    height: 650px;
+    object-fit:cover;
+    filter: brightness(60%);
+}
+.hero-title{
+    color: white;
+    margin-top: 80px;
+    font-size: 100px;
+    text-align: center;
+}
+.hero-title span{
+    color: rgb(150, 228, 252);
+}
+.quem-somos {
+    padding-top:20px;
+    padding-bottom: 20px;
+    background-color: white;
+    height: 100%;
+    width: 100vw;
+    align-items: center;
+    font-size: 30px;
+    text-align: center;
+}
+.quem-somos__title{
+    color: #07657f;
+}
